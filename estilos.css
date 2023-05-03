@@ -1,0 +1,182 @@
+@font-face {
+  font-family: "medieval";
+  src: url(./fuentes/medieval.otf);
+}
+@font-face {
+  font-family: "london";
+  src: url(./fuentes/OldLondon.ttf);
+}
+.landing{
+
+    background-image: url("https://i.pinimg.com/originals/fd/25/1d/fd251de10267c4dda4d0db402bc8cc98.png");
+    background-size: cover;
+
+}
+
+.contacto{
+
+    background-image: url("https://wallpaper.dog/large/10799572.jpg");
+}
+.registro{
+
+  background-image: url("https://cdn.wallpapersafari.com/45/55/WPrpn5.jpg");
+}
+.imagen{
+  margin-top: 20px;
+  margin-left: 490px;
+  
+}
+.bandera{
+  margin-left: 350px;
+}
+.bandera2{
+  margin-left: 500px;
+}
+.caballero{
+
+  margin-top: 200px;
+  margin-left: -150px;
+  width: 40%;
+  
+}
+
+.formulario {
+  
+  background-size: 100% 100%;
+  padding: 75px 75px 70px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.6);
+  font-size: 20px;
+  position: absolute;
+  margin-top: -400px;
+  margin-left: 700px;
+  text-shadow: 5px 5px 10px rgb(0, 0, 0);
+}
+
+.p{
+  font-size: 60px;
+  text-align: center;
+  margin-top: -100px;
+  color: antiquewhite;
+  font-family: "london";
+  text-shadow: 5px 5px 10px rgb(0, 0, 0);
+}
+.p2{
+  font-size: 60px;
+  text-align: center;
+  margin-top: -500px;
+  color: rgb(14, 8, 1);
+  font-family: "london";
+  text-shadow: 5px 5px 10px rgb(0, 0, 0);
+}
+.p3{
+  font-size: 60px;
+  text-align: center;
+  margin-top: -750px;
+  color: rgb(14, 8, 1);
+  font-family: "london";
+  text-shadow: 5px 5px 10px rgb(0, 0, 0);
+}
+
+footer {
+  position: absolute;
+  background-color: #000;
+  color: #fff;
+  height: 50px;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+}
+nav {
+    background-color: #362b24a8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding: 0 20px;
+    border-radius: 4px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    padding-left: 405px;
+    
+    
+    
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  label {
+    color: #050000;
+    font-family: 'medieval';
+    display: block;
+    margin-bottom: 5px;
+    text-align: center;
+    padding: 10px;
+    font-weight: 300;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: rgba(75, 74, 74, 0.267);
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0);
+  
+  }
+  button {
+    font-size: 18px;
+    width: 200px;
+    margin: 70px;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: rgb(151, 44, 44);
+  }
+  textarea {
+
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: rgba(58, 58, 49, 0.37);
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0);
+
+
+  }
+  table{
+    background-size: 100% 100%;
+    padding: 75px 75px 70px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.6);
+    font-size: 40px;
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 400px;
+    text-shadow: 5px 5px 10px rgb(0, 0, 0);
+    color: #810707;
+
+  }
+td,th {
+  padding: 8px;
+  
+
+}
